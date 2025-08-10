@@ -254,6 +254,71 @@ h1 {
     font-weight: bold;
 }
 
+.container {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.section-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.section-subtitle span {
+    color: #ffcc00;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.section-desc {
+    font-size: 15px;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: transparent;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.service-card img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+}
+
+
 
 /* Footer */
 
